@@ -1,17 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .container {
     margin: 8em;
     width: 80%;
+    height:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    border-radius:0.4em;
 }
 .header{
     text-align: center;
@@ -31,24 +32,24 @@
     border-radius: 0.3em;
     font-weight: bold;
 }
-.anwers{
+.answers{
     width: 97%;
     display: flex;
     flex-direction: column;
     gap: 0.3em;
 }
 
-.anwers-select{
+.answers-select{
     display:flex;
     align-items: center;
     width: 100%;
     height: 4em;
     background-color:#f5f5f5;
-    border: 1px ridge;
+    border: 1px solid;
     text-align: center;
     border-radius: 0.3em;
 }
-.anwers-select button{
+.answers-select button{
     height:100%;
     width:4em;
     border: none;
@@ -58,6 +59,23 @@
     background-color:#4876ff;
 }
 
-.anwers-select p{
+.answers-select p{
     margin-left: 1em;
+}
+#startQuiz{
+    background-color:#8470ff;
+    height:3em;
+    width:10em;
+    border-radius: 2em;
+    border:none;
+    font-size:2em;
+    color:#f0f8ff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#startQuiz:hover {background-color: #8470ff}
+
+#startQuiz:active {
+  background-color: #8470ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

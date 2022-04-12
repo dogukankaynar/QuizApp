@@ -17,17 +17,18 @@
   <body>
     <div class="container">
       <div class="header">Quiz App</div>
-      <div class="strat-quiz"><button>Sınavı Başlat</button></div>
+      <div class="strat-quiz"><button id="startQuiz" >Sınavı Başlat</button></div>
       <div class="main">Soru</div>
-      <div class="anwers">
-        <div class="anwers-select"><button>A</button><p>Cevap</p></div>
-        <div class="anwers-select"><button>B</button><p>Cevap</p></div>
-        <div class="anwers-select"><button>C</button><p>Cevap</p></div>
-        <div class="anwers-select"><button>D</button><p>Cevap</p></div>
+      <div class="answers">
+        <div class="answers-select"><button>A</button><p id="cevapA">Cevap</p></div>
+        <div class="answers-select"><button>B</button><p id="cevapB" >Cevap</p></div>
+        <div class="answers-select"><button>C</button><p id="cevapC">Cevap</p></div>
+        <div class="answers-select"><button>D</button><p id="cevapD">Cevap</p></div>
       </div>
       <div class="buttons"></div>
     </div>
-
-    <script src="app.js"></script>
+    <script src="./js/question.js"></script>
+    <script src="./js/printOptions.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
